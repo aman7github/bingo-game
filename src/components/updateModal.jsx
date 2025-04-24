@@ -124,9 +124,9 @@ export default function UpdateModal({id,el}) {
                                     value={update.category}
                                     onChange={handleChange}
                                     label="Category" >
-                                         <MenuItem value="Work">Work</MenuItem>
-                                         <MenuItem value="Personal">Personal</MenuItem>
-                                         <MenuItem value="Study">Study</MenuItem>
+                                         <MenuItem value="electronics">electronics</MenuItem>
+                                         <MenuItem value="jewelery">jewelery</MenuItem>
+                                         <MenuItem value="women's clothing">women's clothing</MenuItem>
                               </Select>
                   </FormControl>
 
