@@ -75,15 +75,9 @@ filterBy:(state,action)=>{
 toggleTheme:(state,action)=>{
     state.theme=!state.theme
   }
-
-
 }
 
-
-
 })
-
-
 
 export const {getTask,addTask,deleteTask,updateTask,filterBy,isErrorFn,isLoadingFn,toggleTheme} = bingotaskSlice.actions
 
